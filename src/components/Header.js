@@ -7,7 +7,7 @@ const Header = (props) => {
                 <div className="about">About</div>
             </Link>
             <Link to="/create">
-                <div className="creators">Create New Card</div>
+                <div className="create">Create New Card</div>
             </Link>
             <Link to="/">
                 <h1>Mater Lingua</h1>
