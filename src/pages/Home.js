@@ -5,11 +5,11 @@ const Home = (props) => {
         <div className='home'>
             <h1>Mater Lingua</h1>
             <Link to='/index'>
-                <div className="French">French</div>
-                <div className="Spanish">Spanish</div>
-                <div className="Italian">Italian</div>
-
-            </Link>
+                <div className="french">French</div>
+                <div className="spanish">Spanish</div>
+                <div className="italian">Italian</div>
+                
+            </Link>     
         </div>
     )
 }
