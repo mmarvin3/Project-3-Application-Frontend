@@ -1,14 +1,17 @@
 import { Route } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import Home from "../pages/Home";
-import Create from "../pages/Create";
-import Index from "../pages/Index";
+import French from "../pages/French";
+import Spanish from "../pages/Spanish";
+import Italian from "../pages/Italian";
+
+// import Index from "../pages/Index";
 import Show from "../pages/Show";
 
 const Main = (props) => {
     const [ cards, setCards ] =useState(null)
 
-    const URL = "http://localhost:3000/language/";
+    const URL = "http://localhost:4000/language/";
     
     const getCards = async () => {
         const response = await fetch(URL);
@@ -45,9 +48,16 @@ const Main = (props) => {
             <Route exact path='/'>
                 <Home />
             </Route>
-            <Route  path='/create'>
-                <Create cards={cards} createCards={createCards}/>
+            <Route  path='/french'>
+                <French cards={cards} createCards={createCards}/>
             </Route>
+            <Route  path='/spanish'>
+                <Spanish cards={cards} createCards={createCards}/>
+            </Route>
+            <Route  path='/italian'>
+                <Italian cards={cards} createCards={createCards}/>
+            </Route>
+
             {/* <Route path='/index'>
                 <Index />
             </Route> */}

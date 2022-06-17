@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-const Create = (props) => {
+const Italian = (props) => {
     const [ newForm, setNewForm] = useState({
         languageName: '',
         mater: '',
@@ -73,4 +73,4 @@ const Create = (props) => {
 
 
 
-export default Create;
+export default Italian;
