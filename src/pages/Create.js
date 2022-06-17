@@ -13,29 +13,27 @@ const Create = (props) => {
         setNewForm({
             ...newForm,
             [event.target.name]: event.target.value
-        });
+        }); 
     };
 
     const handleSubmit = (event) => {
         event.preventDefault();
         props.createCards(newForm);
-        console.log(newForm)
     };
 
-    // const loaded = () => {
-    //     return props.language.map(card => (
-    //         <li key={card._id} className="card">
-    //             <Link to={`/cards/${card.id}`}>
-    //                 <h1>{card.name}</h1>
-    //             </Link>
+    const loaded = () => {
+        return props.cards.map(card => (
+            <li key={card._id} className="card">
+                <Link to={`/create/${card._id}`}>
+                    <h1>{card.mater}</h1>
+                </Link>
+            </li>
+                )); 
+    }
 
-    //         </li>
-    //     ));
-    // }
-
-    // const loading = () => {
-    //     return <h1>Loading...</h1>
-    // }
+    const loading = () => {
+        return <h1>Loading...</h1>
+    }
 
     return (
         <section>
@@ -67,7 +65,7 @@ const Create = (props) => {
                 <input 
                 type="submit" value="Create Card" />
             </form>
-            {/* { props.card ? <ol style={{textAlign: "left"}}>{loaded()}</ol> : <ol>{loading()}</ol>} */}
+            { props.cards ? <ol style={{textAlign: "left"}}>{loaded()}</ol> : <ol>{loading()}</ol>}
         </section>
     )
 }

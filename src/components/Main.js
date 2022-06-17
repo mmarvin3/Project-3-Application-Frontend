@@ -14,7 +14,6 @@ const Main = (props) => {
         const response = await fetch(URL);
         const data = await response.json();
         setCards(data);
-        // console.log(data)
     };
 
     const createCards = async (card) => {
@@ -28,16 +27,16 @@ const Main = (props) => {
         getCards();
     }
 
-    const updateCards = async (updatedCard, id) => {
-        await fetch(URL + id, {
-          method: 'PUT',
-          headers: {
-            'Content-type': 'Application/json'
-          },
-          body: JSON.stringify(updatedCard)  
-        });
-        getCards();
-    }
+    // const updateCards = async (updatedCard, id) => {
+    //     await fetch(URL + id, {
+    //       method: 'PUT',
+    //       headers: {
+    //         'Content-type': 'Application/json'
+    //       },
+    //       body: JSON.stringify(updatedCard)  
+    //     });
+    //     getCards();
+    // }
     useEffect(() => {getCards()}, []);
 
     
@@ -49,16 +48,16 @@ const Main = (props) => {
             <Route  path='/create'>
                 <Create cards={cards} createCards={createCards}/>
             </Route>
-            <Route path='/index'>
+            {/* <Route path='/index'>
                 <Index />
             </Route>
-            <Route path='/language/:id' render={(rp) => (
+            <Route path='/index/:id' render={(rp) => (
                 <Show 
                 {...rp}
                 cards={cards}
                 updateCards={updateCards}
                 />
-            )} />
+            )} /> */}
          </div>
         )   
     }
