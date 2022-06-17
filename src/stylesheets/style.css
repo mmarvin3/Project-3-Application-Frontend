@@ -11,7 +11,10 @@ body {
     font-family: 'Palanquin Dark', sans-serif;
 }
 
-
+.logoImage{
+    width: 95px;
+    height: 90px;
+}
 
 nav, .footer {
     margin: 0 auto;

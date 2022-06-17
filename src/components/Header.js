@@ -4,7 +4,7 @@ const Header = (props) => {
     return (
         <nav className="nav">
             <Link to="/">
-                <h1>Mater Lingua</h1>
+                <img className='logoImage' src='https://i.imgur.com/gi9CrLR.png?1' alt='mater lingua home logo'/>
             </Link>
             <div className='nav-block'>
             <Link to="/about">
