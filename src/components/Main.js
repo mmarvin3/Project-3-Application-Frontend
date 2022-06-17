@@ -27,16 +27,16 @@ const Main = (props) => {
         getCards();
     }
 
-    // const updateCards = async (updatedCard, id) => {
-    //     await fetch(URL + id, {
-    //       method: 'PUT',
-    //       headers: {
-    //         'Content-type': 'Application/json'
-    //       },
-    //       body: JSON.stringify(updatedCard)  
-    //     });
-    //     getCards();
-    // }
+    const updateCards = async (updatedCard, id) => {
+        await fetch(URL + id, {
+          method: 'PUT',
+          headers: {
+            'Content-type': 'Application/json'
+          },
+          body: JSON.stringify(updatedCard)  
+        });
+        getCards();
+    }
     useEffect(() => {getCards()}, []);
 
     
@@ -50,14 +50,14 @@ const Main = (props) => {
             </Route>
             {/* <Route path='/index'>
                 <Index />
-            </Route>
-            <Route path='/index/:id' render={(rp) => (
+            </Route> */}
+            <Route path='/show/:id' render={(rp) => (
                 <Show 
                 {...rp}
                 cards={cards}
                 updateCards={updateCards}
                 />
-            )} /> */}
+            )} />
          </div>
         )   
     }

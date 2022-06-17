@@ -24,7 +24,7 @@ const Create = (props) => {
     const loaded = () => {
         return props.cards.map(card => (
             <li key={card._id} className="card">
-                <Link to={`/create/${card._id}`}>
+                <Link to={`/show/${card._id}`}>
                     <h1>{card.mater}</h1>
                 </Link>
             </li>
