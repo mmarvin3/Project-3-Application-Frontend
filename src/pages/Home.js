@@ -4,12 +4,16 @@ const Home = (props) => {
     return (
         <div className='home'>
             <h1>Mater Lingua</h1>
-            <Link to='/index'>
+            <Link to='/french'>
                 <div className="french">French</div>
-                <div className="spanish">Spanish</div>
-                <div className="italian">Italian</div>
-                
             </Link>     
+            <Link to='/spanish'>
+                <div className="spanish">Spanish</div>
+            </Link>     
+            <Link to='/italian'>
+                <div className="italian">Italian</div>
+            </Link>     
+                
         </div>
     )
 }
