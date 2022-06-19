@@ -3,10 +3,9 @@ import { Link } from 'react-router-dom';
 
 const French = (props) => {
     const [ newForm, setNewForm] = useState({
-        languageName: '',
         mater: '',
-        translation: '',
-        image: '' 
+        image: '', 
+        translation: ''
     });
 
     const handleChange = (event) => {
@@ -22,13 +21,13 @@ const French = (props) => {
     };
 
     const loaded = () => {
-        return props.cards.map(card => (
+        return props.french.map(card => (
             <li key={card._id} className="card">
                 <Link to={`/show/${card._id}`}>
                     <h1>{card.mater}</h1>
                 </Link>
             </li>
-                )); 
+        )); 
     }
 
     const loading = () => {
@@ -38,24 +37,21 @@ const French = (props) => {
     return (
         <section>
             <form onSubmit={handleSubmit}>
-               <input
-                value={newForm.languageName} 
-                onChange={handleChange}
-                name = "languageName"
-                type="text"
-                />
+                <h2>Mater</h2>
                 <input
                 value={newForm.mater}
                 onChange={handleChange}
                 name="mater"
                 type="text"
                 />
+                <h2>Translation</h2>
                 <input
                 value={newForm.translation}
                 onChange={handleChange}
                 name="translation"
                 type="text"
                 />
+                <h2>Picture</h2>
                 <input
                 value={newForm.image}
                 onChange={handleChange}
@@ -65,7 +61,7 @@ const French = (props) => {
                 <input 
                 type="submit" value="Create Card" />
             </form>
-            { props.cards ? <ol style={{textAlign: "left"}}>{loaded()}</ol> : <ol>{loading()}</ol>}
+            { props.french ? <ol style={{textAlign: "left"}}>{loaded()}</ol> : <ol>{loading()}</ol>}
         </section>
     )
 }

@@ -4,68 +4,106 @@ import Home from "../pages/Home";
 import French from "../pages/French";
 import Spanish from "../pages/Spanish";
 import Italian from "../pages/Italian";
-
-// import Index from "../pages/Index";
 import Show from "../pages/Show";
 
 const Main = (props) => {
-    const [ cards, setCards ] =useState(null)
-
-    const URL = "http://localhost:4000/language/";
     
-    const getCards = async () => {
-        const response = await fetch(URL);
+    //French Route
+    const [ french, setFrench ] =useState(null)
+    const URLF = "http://localhost:4000/french";
+    const getFrench = async () => {
+        const response = await fetch(URLF);
         const data = await response.json();
-        setCards(data);
+        setFrench(data);
     };
-
-    const createCards = async (card) => {
-        await fetch(URL, {
+    const createFrench = async (card) => {
+        await fetch(URLF, {
             method: 'POST',
             headers: {
                 'Content-type': 'Application/json'
             },
             body: JSON.stringify(card)
         })
-        getCards();
+        getFrench();
     }
+    // const updateFrench = async (updatedCard, id) => {
+    //     await fetch(URL + id, {
+    //       method: 'PUT',
+    //       headers: {
+    //         'Content-type': 'Application/json'
+    //       },
+    //       body: JSON.stringify(updatedCard)  
+    //     });
+    //     getCards();
+    // }
+    useEffect(() => {getFrench()}, []);
+// END FRENCH
 
-    const updateCards = async (updatedCard, id) => {
-        await fetch(URL + id, {
-          method: 'PUT',
-          headers: {
-            'Content-type': 'Application/json'
-          },
-          body: JSON.stringify(updatedCard)  
-        });
-        getCards();
+// START SPANISH
+const URLS = "http://localhost:4000/spanish";
+const [ spanish, setSpanish ] =useState(null)
+
+    const getSpanish = async () => {
+        const response = await fetch(URLS);
+        const data = await response.json();
+        setSpanish(data);
+    };
+    const createSpanish = async (card) => {
+        await fetch(URLS, {
+            method: 'POST',
+            headers: {
+                'Content-type': 'Application/json'
+            },
+            body: JSON.stringify(card)
+        })
+        getSpanish();
     }
-    useEffect(() => {getCards()}, []);
+    useEffect(() => {getSpanish()}, []);
+   // END SPANISH
 
-    
+    // START ITALIAN
+      const URLI = "http://localhost:4000/italian";
+      const [ italian, setItalian ] =useState(null)
+    const getItalian = async () => {
+        const response = await fetch(URLI);
+        const data = await response.json();
+        setItalian(data);
+    };
+    const createItalian = async (card) => {
+        await fetch(URLI, {
+            method: 'POST',
+            headers: {
+                'Content-type': 'Application/json'
+            },
+            body: JSON.stringify(card)
+        })
+        getItalian();
+    }
+    useEffect(() => {getItalian()}, []);
+    // END ITALIAN
+
     return (
         <div>
             <Route exact path='/'>
                 <Home />
             </Route>
             <Route  path='/french'>
-                <French cards={cards} createCards={createCards}/>
+                <French french={french} createCards={createFrench}/>
             </Route>
             <Route  path='/spanish'>
-                <Spanish cards={cards} createCards={createCards}/>
+                <Spanish spanish={spanish} createCards={createSpanish} />
             </Route>
             <Route  path='/italian'>
-                <Italian cards={cards} createCards={createCards}/>
-            </Route>
-
-            {/* <Route path='/index'>
-                <Index />
-            </Route> */}
+                <Italian italian={italian} createCards={createItalian}/>
+            </Route> 
+           
             <Route path='/show/:id' render={(rp) => (
                 <Show 
                 {...rp}
-                cards={cards}
-                updateCards={updateCards}
+                french={french}
+                spanish={spanish}
+                italian={italian}
+                // updateFrench={updateFrench}
                 />
             )} />
          </div>
