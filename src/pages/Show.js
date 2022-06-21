@@ -14,23 +14,23 @@ return (
         <div>
             <h3> {french.mater}</h3>
             <h3> {french.translation}</h3>
-            <h3> {french.image}</h3>
+            <img src={french.image} alt={french.translation} />
         </div>)
 } else if (spanish !== french && spanish !== italian) {
     return (
         <div>
-<h3> {spanish.mater}</h3>
-<h3> {spanish.translation}</h3>
-<h3> {spanish.image}</h3>
-</div>
+            <h3> {spanish.mater}</h3>
+            <h3> {spanish.translation}</h3>
+            <img src={spanish.image} alt={spanish.translation} />
+        </div>
 )
 } else {
     return (
-<div>
-     <h3> {italian.mater}</h3>
-     <h3> {italian.translation}</h3>
-     <h3> {italian.image}</h3> 
- </div>
+        <div>
+            <h3> {italian.mater}</h3>
+            <h3> {italian.translation}</h3>
+            <img src={italian.image} alt={italian.translation} />
+        </div>
     )
 }
 }
