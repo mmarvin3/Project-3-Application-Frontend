@@ -13,6 +13,7 @@ const Header = (props) => {
             <Link to="/create">
                 <div className="create">Create New Card</div>
             </Link>
+           
             </div>
         </nav>
     )
