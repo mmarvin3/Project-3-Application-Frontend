@@ -10,7 +10,7 @@ const Main = (props) => {
     
     //French Route
     const [ french, setFrench ] =useState(null)
-    const URLF = "http://localhost:4000/french";
+    const URLF = "https://lingua-mater.herokuapp.com/french";
     const getFrench = async () => {
         const response = await fetch(URLF);
         const data = await response.json();
@@ -40,7 +40,7 @@ const Main = (props) => {
 // END FRENCH
 
 // START SPANISH
-const URLS = "http://localhost:4000/spanish";
+const URLS = "https://lingua-mater.herokuapp.com/spanish";
 const [ spanish, setSpanish ] =useState(null)
 
     const getSpanish = async () => {
@@ -62,7 +62,7 @@ const [ spanish, setSpanish ] =useState(null)
    // END SPANISH
 
     // START ITALIAN
-      const URLI = "http://localhost:4000/italian";
+      const URLI = "https://lingua-mater.herokuapp.com/italian";
       const [ italian, setItalian ] =useState(null)
     const getItalian = async () => {
         const response = await fetch(URLI);

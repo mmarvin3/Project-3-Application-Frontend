@@ -1,6 +1,7 @@
 
 import { useState } from "react";
 const Show = (props) => {
+
     const idf = props.match.params.id;
     const french = props.french.find(p => p._id === idf)
 
@@ -65,5 +66,7 @@ const Show = (props) => {
             </div>
         )
     }
+
+
 }
 export default Show;
