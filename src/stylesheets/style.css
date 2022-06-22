@@ -88,9 +88,11 @@ nav,
     display: flex;
     align-items: center;
     justify-content: center;
+
     flex-direction: row;
     margin: 100px auto 0 auto;
     
+
     /* flip functionality */
     transform-style: preserve-3d;
     transition: 150ms;
@@ -176,9 +178,11 @@ nav,
     list-style: none;
     display: flex;
     flex-direction: row;
+
     flex-wrap: wrap;
     padding: 5px;
    
+
 }
 
 .card {
@@ -186,7 +190,9 @@ nav,
     height: 100px;
     background-image: url(https://1001freedownloads.s3.amazonaws.com/vector/thumb/109019/index_card.png);
     background-size: cover;
+
     margin: 5px;
+
 }
 
 h1 {
@@ -240,7 +246,10 @@ a {
 
 /* Footer */
 .footer {
+
     position: fixed;
+
+
     bottom: 0;
     width: 100%;
     height: 60px;

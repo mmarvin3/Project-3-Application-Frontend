@@ -39,6 +39,7 @@ const Main = (props) => {
     useEffect(() => {getFrench()}, []);
 // END FRENCH
 
+
 // START SPANISH
 const URLS = "https://lingua-mater.herokuapp.com/spanish";
 const [ spanish, setSpanish ] =useState(null)
@@ -81,20 +82,15 @@ const [ spanish, setSpanish ] =useState(null)
     }
     useEffect(() => {getItalian()}, []);
     // END ITALIAN
-       // trying to add back button
-    //    const navigate = useNavigate();
-    //    <button onClick={() => navigate(-1)}>Go back</button>
-       return (
-           <div>
-            <div>
 
-            </div>
+    return (
+        <div>
+
             <Route exact path='/'>
                 <Home />
             </Route>
             <Route  path='/french'>
-                
-                <French french={french} createCards={createFrench} />
+                <French french={french} createCards={createFrench}/>
             </Route>
             <Route  path='/spanish'>
                 <Spanish spanish={spanish} createCards={createSpanish} />
