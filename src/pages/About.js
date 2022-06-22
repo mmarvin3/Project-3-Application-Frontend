@@ -1,5 +1,6 @@
 
 const About = () => {
+
 return (
 <span>
 <h1> About the Developers</h1>
@@ -52,3 +53,4 @@ return (
 }
 
 export default About;
+

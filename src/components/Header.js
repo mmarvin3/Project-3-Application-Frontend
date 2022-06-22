@@ -1,8 +1,12 @@
+
+import { useNavigate } from 'react-router';
 import { Link } from 'react-router-dom';
 
 const Header = (props) => {
-    return (
-        <nav className="nav">
+  
+     return (
+         <nav className="nav">
+
             <Link to="/">
                 <img className='logoImage' src='https://i.imgur.com/gi9CrLR.png?1' alt='mater lingua home logo'/>
             </Link>
