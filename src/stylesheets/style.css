@@ -1,8 +1,18 @@
 /* INDEX */
 body {
     background-color: #EFE2BA;
-    
-    
+}
+
+h3 {
+    font-size: 50px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    height: 200px;
+    width: 200px;
 }
 
 .title-header {
@@ -11,9 +21,13 @@ body {
     font-family: 'Palanquin Dark', sans-serif;
 }
 
+.logoImage {
+    width: 95px;
+    height: 90px;
+}
 
-
-nav, .footer {
+nav,
+.footer {
     margin: 0 auto;
     padding: 1em 3em;
     box-sizing: border-box;
@@ -26,15 +40,157 @@ nav, .footer {
     color: white;
 }
 
+.home-header {
+    background: #fff;
+    padding: 14px 0;
+    border-bottom: solid 1px #e6e6e6;
+    margin-top: 0px;
+    overflow: inherit;
+}
+
+.homeCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+.card,
+.languagehHomeCard,
+.french,
+.spanish,
+.italian {
+
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #f9f9f9;
+    text-align: center;
+    border-bottom: solid 1px #e6e6e6;
+    border: 1px solid #e4e4e4;
+    box-shadow: 1px 1px 5px #888;
+    color: black;
+    background: linear-gradient(white, white 50%, #333 50%, #333);
+    background-size: 100% 202%;
+    transition: all 0.2s ease;
+    animation: down-bump 0.4s ease;
+
+    
+
+}
+
+.showCard{
+    width: 800px;
+    height: 400px;
+    background-image: url(https://1001freedownloads.s3.amazonaws.com/vector/thumb/109019/index_card.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 100px auto 0 auto;
+    
+    /* flip functionality */
+    transform-style: preserve-3d;
+    transition: 150ms;
+    cursor: pointer;
+    transform: perspective(1000px) rotateY(var(--rotate-y, 0));
+}
+
+.card:hover, .showCard:hover {
+    --translate-y: -2px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0.5);
+    opacity: 1;
+}
+
+.flip {
+    /* this is needed for functionality */
+    --rotate-y: 180deg;
+}
+
+.front {
+    position: absolute;
+    padding: 1rem;
+    backface-visibility: hidden;
+}
+
+.back {
+    /* this is needed for functionality */
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+
+/* flip functionality ends here */
+
+.languagehHomeCard:hover {
+    background-position: 100% 100%;
+    animation: up-bump 0.4s ease;
+}
+
+@keyframes up-bump {
+    0% {
+        padding-top: 2em;
+    }
+
+    50% {
+        padding-top: 1.5em;
+    }
+
+    100% {
+        padding-top: 2em;
+    }
+}
+
+@keyframes down-bump {
+    0% {
+        padding-top: 2em;
+    }
+
+    50% {
+        padding-top: 2.5em;
+    }
+
+    100% {
+        padding-top: 2em;
+    }
+}
+
+.languageHomePicture {
+    width: 400px;
+    height: 500px;
+}
+
 .nav-block {
     display: flex;
     align-items: center;
 
 }
 
-.about{
+.about {
     margin-right: 20px;
     color: white;
+}
+
+.cardDeck{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+   
+}
+
+.card {
+    width: 200px;
+    height: 100px;
+    background-image: url(https://1001freedownloads.s3.amazonaws.com/vector/thumb/109019/index_card.png);
+    background-size: cover;
+    margin: 5px;
+}
+
+h1 {
+    text-align: center;
 }
 
 .create {
@@ -44,20 +200,28 @@ nav, .footer {
     text-shadow: 0px 1px 3px rgb(0 0 0 / 20%);
 }
 
-/* Might use later */
-/* input[type="text"],
+.createForm {
+    background: #f9f9f9;
+    padding: 14px 0;
+    border-bottom: solid 1px #e6e6e6;
+    margin-top: 0px;
+    overflow: inherit;
+    display: flex;
+    justify-content: space-around;
+}
+
+input[type="text"],
 input[type="submit"] {
-    width: 60%;
     padding: 1em;
     border: 0px;
     border-radius: 0.5em;
     box-shadow: 1px 1px 2px #ddd;
-    margin: 0.5em 0;
-} */
+
+}
 
 a {
     text-decoration: none;
-    
+
 }
 
 
@@ -76,12 +240,12 @@ a {
 
 /* Footer */
 .footer {
-   position:absolute;
-   bottom:0;
-   width:100%;
-   height:60px;   /* Height of the footer */
-   border-top-left-radius: 1em;
-   border-top-right-radius: 1em;
-   
-  }
-  
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    /* Height of the footer */
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+
+}
