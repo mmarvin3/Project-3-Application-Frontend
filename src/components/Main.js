@@ -5,6 +5,7 @@ import French from "../pages/French";
 import Spanish from "../pages/Spanish";
 import Italian from "../pages/Italian";
 import Show from "../pages/Show";
+import About from "../pages/About";
 
 const Main = (props) => {
     
@@ -88,6 +89,9 @@ const [ spanish, setSpanish ] =useState(null)
 
             <Route exact path='/'>
                 <Home />
+            </Route>
+            <Route path='/about'>
+                <About />
             </Route>
             <Route  path='/french'>
                 <French french={french} createCards={createFrench}/>
