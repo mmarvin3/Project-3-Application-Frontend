@@ -36,7 +36,7 @@ const Spanish = (props) => {
 
     return (
         <section>
-            <form onSubmit={handleSubmit}>
+            <form className="createForm" onSubmit={handleSubmit}>
                 <h2>Mater</h2>
                 <input
                 value={newForm.mater}
@@ -59,9 +59,9 @@ const Spanish = (props) => {
                 type="text"
                 />
                 <input 
-                type="submit" value="Create Card" />
+                className="create" type="submit" value="Create Card" />
             </form>
-            { props.spanish ? <ol style={{textAlign: "left"}}>{loaded()}</ol> : <ol>{loading()}</ol>}
+            { props.spanish ? <ol className="cardDeck" style={{textAlign: "left"}}>{loaded()}</ol> : <ol>{loading()}</ol>}
         </section>
     )
 }

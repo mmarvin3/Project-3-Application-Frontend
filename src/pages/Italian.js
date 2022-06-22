@@ -2,9 +2,9 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Italian = (props) => {
-    const [ newForm, setNewForm] = useState({
+    const [newForm, setNewForm] = useState({
         mater: '',
-        image: '', 
+        image: '',
         translation: ''
     });
 
@@ -12,7 +12,7 @@ const Italian = (props) => {
         setNewForm({
             ...newForm,
             [event.target.name]: event.target.value
-        }); 
+        });
     };
 
     const handleSubmit = (event) => {
@@ -27,7 +27,7 @@ const Italian = (props) => {
                     <h1>{card.mater}</h1>
                 </Link>
             </li>
-                )); 
+        ));
     }
 
     const loading = () => {
@@ -36,32 +36,32 @@ const Italian = (props) => {
 
     return (
         <section>
-            <form onSubmit={handleSubmit}>
+            <form className="createForm" onSubmit={handleSubmit}>
                 <h2>Mater</h2>
                 <input
-                value={newForm.mater}
-                onChange={handleChange}
-                name="mater"
-                type="text"
+                    value={newForm.mater}
+                    onChange={handleChange}
+                    name="mater"
+                    type="text"
                 />
                 <h2>Translation</h2>
                 <input
-                value={newForm.translation}
-                onChange={handleChange}
-                name="translation"
-                type="text"
+                    value={newForm.translation}
+                    onChange={handleChange}
+                    name="translation"
+                    type="text"
                 />
                 <h2>Picture</h2>
                 <input
-                value={newForm.image}
-                onChange={handleChange}
-                name="image"
-                type="text"
+                    value={newForm.image}
+                    onChange={handleChange}
+                    name="image"
+                    type="text"
                 />
-                <input 
-                type="submit" value="Create Card" />
+                <input
+                    className="create" type="submit" value="Create Card" />
             </form>
-            { props.italian ? <ol style={{textAlign: "left"}}>{loaded()}</ol> : <ol>{loading()}</ol>}
+            {props.italian ? <ol className="cardDeck" style={{ textAlign: "left" }}>{loaded()}</ol> : <ol>{loading()}</ol>}
         </section>
     )
 }
