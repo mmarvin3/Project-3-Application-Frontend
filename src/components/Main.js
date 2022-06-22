@@ -1,5 +1,5 @@
 import { Route } from 'react-router-dom';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useNavigate } from 'react';
 import Home from "../pages/Home";
 import French from "../pages/French";
 import Spanish from "../pages/Spanish";
@@ -38,6 +38,7 @@ const Main = (props) => {
     // }
     useEffect(() => {getFrench()}, []);
 // END FRENCH
+
 
 // START SPANISH
 const URLS = "https://lingua-mater.herokuapp.com/spanish";
@@ -84,6 +85,7 @@ const [ spanish, setSpanish ] =useState(null)
 
     return (
         <div>
+
             <Route exact path='/'>
                 <Home />
             </Route>
