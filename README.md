@@ -9,7 +9,6 @@ Mater Lingua is an app for anyone wanting to learn a new language. Through the u
 ## Table of Contents
 * [Technologies Used](#technologiesused)
 * [Features](#features)
-* [Design](#design)
 * [Project Next Steps](#nextsteps)
 * [Deployed App](#deployment)
 * [About the Team](#team)
@@ -32,10 +31,6 @@ Mater Lingua is an app for anyone wanting to learn a new language. Through the u
 [Mater Lingua Trello](https://trello.com/b/nKZlIljC/mater-lingua)
 * Trello was used as a digital means to keep the team organized and on task. 
 
-## <a name="design"></a>Design
-* Design elements implemented using React... 
-
-
 ## <a name="nextsteps"></a>Project Next Steps
 * Add user authentification
 * Create edit and delete functionality 
@@ -43,8 +38,10 @@ Mater Lingua is an app for anyone wanting to learn a new language. Through the u
 ## <a name="deployment"></a>Deployed Link
 [Netlify](deployed link )
 
-* You can view the repository:
-[Github.com](Git link)
+#### You can view the repositories:
+* [Github.com front-end](https://github.com/mmarvin3/Project-3-Application-Frontend/)
+* [Github.com back-end](https://github.com/eufuller/Project-3-Application)
+
 
 # <a name="team"></a>About The Team
 Our team was brought together by the auspicious hand of fate. We were tasked with solving a problem and decided world communication seemed surmountable. With our task in hand we bravely moved forward to create an app that gives users a freedom to explore language while following time honored conventions. We have tackled this challange as a cohesive team of four mighty developers, and we hope you enjoy our efforts.
