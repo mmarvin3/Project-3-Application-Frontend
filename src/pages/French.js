@@ -54,33 +54,54 @@ const French = (props) => {
     }
 
     return (
-        <section>
+        <section >
             {showForm ?
-            <form className="createForm" onClick={handleSubmit}>
-                <h2>Mater</h2>
-                <input
-                    value={newForm.mater}
-                    onChange={handleChange}
-                    name="mater"
-                    type="text"
-                />
-                <h2>Translation</h2>
-                <input
-                    value={newForm.translation}
-                    onChange={handleChange}
-                    name="translation"
-                    type="text"
-                />
-                <h2>Picture</h2>
-                <input
-                    value={newForm.image}
-                    onChange={handleChange}
-                    name="image"
-                    type="text"
-                />
-                <button
-                    className="create" onClick={() => submitAction()}>Submit</button>
-            </form>
+            <div className="container">
+                <div className="sidebar"></div>
+                <div className="createForm">
+                <form onClick={handleSubmit}>
+                
+                    <fieldset className="formFields">
+                        <legend>Create New Flashcard</legend>
+                    <label>
+                        <h2>Mater</h2>
+                        <input
+                            value={newForm.mater}
+                            onChange={handleChange}
+                            name="mater"
+                            type="text"
+                            placeholder='ex. Pomme'
+                        />
+                    </label>
+
+                    <label>
+                        <h2>Translation</h2>
+                        <input
+                            value={newForm.translation}
+                            onChange={handleChange}
+                            name="translation"
+                            type="text"
+                            placeholder="ex. Apple"
+                        />
+                    </label>
+
+                    <label>
+                        <h2>Picture</h2>
+                        <input
+                            value={newForm.image}
+                            onChange={handleChange}
+                            name="image"
+                            type="text"
+                            placeholder="ex. your image link"
+                        />
+                    </label>
+
+                    <button
+                        className="submit" onClick={() => submitAction()}>Submit</button>
+                 </fieldset>
+                    </form>
+                        </div>
+                    </div>
             :null}
             {props.french ? <ol className="cardDeck" style={{ textAlign: "left" }}>{loaded()}</ol> : <ol>{loading()}</ol>}
             {showCreateButton ?

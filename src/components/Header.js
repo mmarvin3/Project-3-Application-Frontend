@@ -15,7 +15,7 @@ const Header = (props) => {
                 <div className="about">About</div>
             </Link>
             <Link to="/create">
-                <div className="create">Create New Card</div>
+                <div className="login">Login</div>
             </Link>
            
             </div>

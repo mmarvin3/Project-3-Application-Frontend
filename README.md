@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Mater Lingua 1.0
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### A flashcard creator for people to practice foreign language vocabulary. 
+<img src="https://i.imgur.com/x1Ldes9.png?1" alt="Home Page Welcome Screen"/>
 
-## Available Scripts
+## Description
+Mater Lingua is an app for anyone wanting to learn a new language. Through the use of self created flashcards you can practice your foreign language vocabulary from anywhere. You no longer have to carry a deck of cards around with you. See your entire deck all at once without having to place each individual card.  
 
-In the project directory, you can run:
+## Table of Contents
+* [Technologies Used](#technologiesused)
+* [Features](#features)
+* [Project Next Steps](#nextsteps)
+* [Deployed App](#deployment)
+* [About the Team](#team)
 
-### `npm start`
+## <a name="technologiesused"></a>Technologies Used
+* JavaScript
+* HTML5
+* CSS3
+* React
+* Node.js
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
+* Users can choose a language to study.
+* Users can see a list of their previously made cards.
+* Users can create new cards or click on a card to study that individual word. 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Trello Planning
+[Mater Lingua Trello](https://trello.com/b/nKZlIljC/mater-lingua)
+* Trello was used as a digital means to keep the team organized and on task. 
 
-### `npm run build`
+## <a name="nextsteps"></a>Project Next Steps
+* Add user authentification
+* Create edit and delete functionality 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## <a name="deployment"></a>Deployed Link
+[Netlify](deployed link )
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### You can view the repositories:
+* [Github.com front-end](https://github.com/mmarvin3/Project-3-Application-Frontend/)
+* [Github.com back-end](https://github.com/eufuller/Project-3-Application)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+# <a name="team"></a>About The Team
+Our team was brought together by the auspicious hand of fate. We were tasked with solving a problem and decided world communication seemed surmountable. With our task in hand we bravely moved forward to create an app that gives users a freedom to explore language while following time honored conventions. We have tackled this challange as a cohesive team of four mighty developers, and we hope you enjoy our efforts.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Candace Pinero - Project Manager
+<img src="https://i.imgur.com/DZUoqrab.jpg" alt="Candace Pinero"/>
+* Manage the team workflow and communications. Created flip function for show page cards. Helped create backend.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* You can contact me here:
+[Linkedin.com](https://www.linkedin.com/in/candace-pinero-84a6b922b/)
+[Github.com](https://github.com/candacepinero)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Essence Fuller - Back-end Lead
+<img src="https://i.imgur.com/O9Gj1X0b.jpg" alt="Essence Fuller"/>
+* Manager of all backend opperations. Created the backend. 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* You can contact me here:
+[Linkedin.com](https://www.linkedin.com/in/essencefuller/)
+[Github.com](https://github.com/eufuller)
 
-## Learn More
+## Marvin Merida - Front-end Lead
+<img src="https://i.imgur.com/0gsV0B1b.jpg" alt="Original Sketch"/>
+* Manager of all front end oppertaions. Created app aesthetic and majority of CSS.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* You can contact me here:
+[Linkedin.com](https://www.linkedin.com/in/marvin-merida/)
+[Github.com](https://github.com/mmarvin3)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## David Barbour - Release Manager
+<img src="https://i.imgur.com/T9PDInob.png" alt="David Barbour"/>
+* Responsable for managing version control. Created React frameworks for front-end. 
 
-### Code Splitting
+* You can contact me here:
+[Linkedin.com](https://www.linkedin.com/in/david-barbour/)
+[Github.com](https://github.com/BarbourD)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Works Cited:
+* N/A from your project.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
