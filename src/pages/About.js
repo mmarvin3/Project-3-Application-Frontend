@@ -3,19 +3,19 @@ const About = () => {
 
     return (
         <span>
-            <h1 className="about-h1"> About the Developers</h1>
+            <h1 className="page-header"> About the Developers</h1>
 
             <div className="container">
                 <div className="team">
                     <div>
-                    <h2> Candace Pinero</h2>
-                        <img className="aboutImg" src="https://i.imgur.com/Qz7FiZu.jpg" alt="Candace"></img>
-                        <p className="about-text">Hello, my name is Candace. I was introduced to coding by a friend, and at the time had no experience with coding. I decided to give it a try and found that I actually really enjoyed it. I was working as a team lead at Walmart at the time, and started teaching myself  HTML, CSS, and  javascript on my breaks in my car.  I enjoy learning new skill and bettering myself. I joined GA in April of 2022 and started my journey to becoming a software engineer.</p>
-                    <a className="icon" href="https://www.linkedin.com/in/candace-pinero-84a6b922b/" target="_blank" rel="noreferrer">
-                        <ion-icon name="logo-linkedin" size="large"></ion-icon></a>
-                    <a href="https://github.com/candacepinero" target="_blank" rel="noreferrer">
-                        <ion-icon name="logo-github" size="large"></ion-icon>
-                    </a>
+                        <h2> Candace Pinero</h2>
+                        <img className="aboutImg" src="https://i.imgur.com/YvCUCqA.jpg" alt="Candace"></img>
+                        <p className="about-text">Hello, my name is Candace and I am a software engineer. I was introduced to coding by a friend, and at the time had no experience with coding. I decided to give it a try and found that I actually really enjoyed it. I was working as a team lead at Walmart at the time, and started teaching myself  HTML, CSS, and  javascript on my breaks in my car. I joined GA in April of 2022 and started my journey to becoming a software engineer.</p>
+                        <a className="icon" href="https://www.linkedin.com/in/candace-pinero-84a6b922b/" target="_blank" rel="noreferrer">
+                            <ion-icon name="logo-linkedin" size="large"></ion-icon></a>
+                        <a href="https://github.com/candacepinero" target="_blank" rel="noreferrer">
+                            <ion-icon name="logo-github" size="large"></ion-icon>
+                        </a>
                     </div>
 
 

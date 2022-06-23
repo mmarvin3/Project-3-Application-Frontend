@@ -1,6 +1,7 @@
 /* INDEX */
 body {
     background-color: #EFE2BA;
+    padding-bottom: 150px;
 }
 
 h3 {
@@ -10,7 +11,7 @@ h3 {
     justify-content: center;
 }
 
-img{
+img {
     height: 200px;
     width: 200px;
 }
@@ -28,7 +29,7 @@ img{
 
 nav,
 .footer {
-    margin: 0 auto;
+
     padding: 1em 3em;
     box-sizing: border-box;
     background: #4056A1;
@@ -76,11 +77,11 @@ nav,
     transition: all 0.2s ease;
     animation: down-bump 0.4s ease;
 
-    
+
 
 }
 
-.showCard{
+.showCard {
     width: 800px;
     height: 400px;
     background-image: url(https://1001freedownloads.s3.amazonaws.com/vector/thumb/109019/index_card.png);
@@ -91,7 +92,7 @@ nav,
 
     flex-direction: row;
     margin: 100px auto 0 auto;
-    
+
 
     /* flip functionality */
     transform-style: preserve-3d;
@@ -100,7 +101,8 @@ nav,
     transform: perspective(1000px) rotateY(var(--rotate-y, 0));
 }
 
-.card:hover, .showCard:hover {
+.card:hover,
+.showCard:hover {
     --translate-y: -2px;
     box-shadow: 0 0 5px 2px rgba(0, 0, 0.5);
     opacity: 1;
@@ -174,14 +176,14 @@ nav,
     color: white;
 }
 
-.cardDeck{
+.cardDeck {
     list-style: none;
     display: flex;
     flex-direction: row;
 
     flex-wrap: wrap;
     padding: 5px;
-   
+
 
 }
 
@@ -264,33 +266,37 @@ a {
 .container {
     display: flex;
     justify-content: center;
+
 }
 
-/* .aboutImg {
-    height: 200px;
-} */
+.aboutImg {
+    height: 400px;
+    width: 400px;
+    box-shadow: 2px 2px 2px #333232;
+}
 
 .team {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+
 }
 
 .about-text {
-    width: 300px;
-   
-    
-}
-ion-icon {
-    color: rgb(0, 0, 8);
-   
-}
-ion-icon:hover {
-    cursor: pointer;
-   
+    width: 400px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
-/* ======================Create page=================== */
+ion-icon {
+    color: rgb(0, 0, 8);
+
+}
+
+ion-icon:hover {
+    cursor: pointer;
+
 
 .loginImg {
     height: 50%;
@@ -303,3 +309,4 @@ ion-icon:hover {
     flex-flow: column wrap;
     align-content: center;
 }
+
