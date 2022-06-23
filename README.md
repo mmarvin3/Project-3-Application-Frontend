@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# Our Application 1.0
+​
+#### A flashcard creator for people to practice foreign language vocabulary. 
+<img src="./images/homePage.png" alt="Home Page Welcome Screen"/>
+​
+## Description
+Mater Lingua is an app for anyone wanting to learn a new language. Through the use of self created flashcards you can practice your foreign language vocabulary from anywhere. You no longer have to carry a deck of cards around with you. See your entire deck all at once without having to place each individual card.  
+​
+## Table of Contents
+* [Technologies Used](#technologiesused)
+* [Features](#features)
+* [Design](#design)
+* [Project Next Steps](#nextsteps)
+* [Deployed App](#deployment)
+* [About the Team](#team)
+​
+## <a name="technologiesused"></a>Technologies Used
+* JavaScript
+* HTML5
+* CSS3
+* React
+* Node.js
+* 
+​
+​
+## Features
+* Users can choose a language to study.
+* Users can see a list of their previously made cards.
+* Users can create new cards or click on a card to study that individual word. 
+​
+​
+## Whiteboard Images
+*Original Whiteboard sketch
+<img src="./images/whiteboard.jpg" alt="Original Sketch"/>
+​
+## Trello Planning
+[Trello]([(https://trello.com/b/nKZlIljC/mater-lingua])
+* Trello was used as a digital means to keep the team organized and on task. 
+​
+## <a name="design"></a>Design
+* Design elements implemented using React... 
+​
+​
+## <a name="nextsteps"></a>Project Next Steps
+* Add user authentification
+* Create edit and delete functionality 
+​
+## <a name="deployment"></a>Deployed Link
+[Netlify](deployed link )
+​
+* You can view the repository:
+[Github.com](Git link)
+​
+​
+# <a name="team"></a>About The Team
+Our team was brought together by the auspicious hand of fate. We were tasked with solving a problem and decided world communication seemed surmountable. With our task in hand we bravely moved forward to create an app that gives users a freedom to explore language while following time honored conventions. We have tackled this challange as a cohesive team of four mighty developers, and we hope you enjoy our efforts.
+​
+## Member 1 - Role/Title
+<img src="./images/Member1.jpg" alt="Original Sketch"/>
+* Role Description, highlight the components you've built as well as the support you've provided for the team
+​
+* You can contact me here:
+[PortfolioSite.com](Port site link)
+[Linkedin.com](Linked in profile likn)
+[Github.com](Git link)
+​
+## Member 2 - Role/Title
+<img src="./images/Member2.jpg" alt="Original Sketch"/>
+* Role Description
+​
+* You can contact me here:
+[PortfolioSite.com](Port site link)
+[Linkedin.com](Linked in profile likn)
+[Github.com](Git link)
+​
+## Member 4 - Role/Title
+<img src="./images/Member3.jpg" alt="Original Sketch"/>
+* Role Description
+​
+* You can contact me here:
+[PortfolioSite.com](Port site link)
+[Linkedin.com](Linked in profile likn)
+[Github.com](Git link)
+​
+## Member 4 - Role/Title
+<img src="./images/Member4.jpg" alt="Original Sketch"/>
+* Role Description
+​
+* You can contact me here:
+[PortfolioSite.com](Port site link)
+[Linkedin.com](Linked in profile likn)
+[Github.com](Git link)
+​
+## Works Cited:
+* N/A from your project.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
