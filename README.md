@@ -36,7 +36,7 @@ Mater Lingua is an app for anyone wanting to learn a new language. Through the u
 * Create edit and delete functionality 
 
 ## <a name="deployment"></a>Deployed Link
-[Mater Lingua](https://lustrous-cascaron-78631f.netlify.app/)
+[Mater Lingua](https://materlingua.netlify.app/)
 
 #### You can view the repositories:
 * [Github.com front-end](https://github.com/mmarvin3/Project-3-Application-Frontend/)
