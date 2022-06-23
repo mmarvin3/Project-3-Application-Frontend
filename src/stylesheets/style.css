@@ -297,4 +297,16 @@ ion-icon {
 ion-icon:hover {
     cursor: pointer;
 
+
+.loginImg {
+    height: 50%;
+    width: 50%;
 }
+
+.loginDiv {
+    margin: 5px;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
