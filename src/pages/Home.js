@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 const Home = (props) => {
     return (
         <div className='home'>
-            <h1 className='home-header'>Language Decks</h1>
+            <h1 className='page-header'>Language Decks</h1>
             <div className='homeCards'>
                 <Link to='/french'>
                     <div className='languagehHomeCard'>

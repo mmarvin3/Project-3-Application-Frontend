@@ -22,15 +22,15 @@ const Spanish = (props) => {
 
     const loaded = () => {
         return props.spanish.map(card => (
-            showCards?
-            <li key={card._id} className="card">
-                <Link to={`/show/${card._id}`}>
-                    <h1>{card.mater}</h1>
-                </Link>
-            </li>
-             :null
-             
-        )); 
+            showCards ?
+                <li key={card._id} className="card">
+                    <Link to={`/show/${card._id}`}>
+                        <h1>{card.mater}</h1>
+                    </Link>
+                </li>
+                : null
+
+        ));
     }
 
     const loading = () => {
@@ -40,14 +40,14 @@ const Spanish = (props) => {
     const [showCards, setShowCards] = useState(true)
     const [showForm, setShowForm] = useState(false)
     const [showCreateButton, setShowCreateButton] = useState(true)
-   
-    function submitAction(){
+
+    function submitAction() {
         setShowCards(true);
         setShowForm(false);
         setShowCreateButton(true);
     }
-   
-    function createAction(){
+
+    function createAction() {
         setShowCards(false);
         setShowForm(true);
         setShowCreateButton(false);
@@ -55,37 +55,47 @@ const Spanish = (props) => {
 
     return (
         <section>
+            <h1 className='page-header'>Spanish Deck</h1>
             {showForm ?
-            <form className="createForm" onClick={handleSubmit}>
-                <h2>Mater</h2>
-                <input
-                    value={newForm.mater}
-                    onChange={handleChange}
-                    name="mater"
-                    type="text"
-                />
-                <h2>Translation</h2>
-                <input
-                    value={newForm.translation}
-                    onChange={handleChange}
-                    name="translation"
-                    type="text"
-                />
-                <h2>Picture</h2>
-                <input
-                    value={newForm.image}
-                    onChange={handleChange}
-                    name="image"
-                    type="text"
-                />
-                <button
-                    className="create" onClick={() => submitAction()}>Submit</button>
-            </form>
-            :null}
+                <form className="createForm" onClick={handleSubmit}>
+                    <div className='field-inline'>
+                        <h2 className='form-label'>Spanish Word</h2>
+                        <input
+                            value={newForm.mater}
+                            onChange={handleChange}
+                            name="mater"
+                            type="text"
+                            placeholder='(ex. Hola, Perro, Gato...)'
+                        />
+                    </div>
+                    <div className='field-inline'>
+                        <h2 className='form-label'>Translation</h2>
+                        <input
+                            value={newForm.translation}
+                            onChange={handleChange}
+                            name="translation"
+                            type="text"
+                            placeholder='(ex. Hello, Dog, Cat...)'
+                        />
+                    </div>
+                    <div className='field-inline'>
+                        <h2 className='form-label'>Picture</h2>
+                        <input
+                            value={newForm.image}
+                            onChange={handleChange}
+                            name="image"
+                            type="text"
+                            placeholder='Add an image URL'
+                        />
+                    </div>
+                    <button
+                        className="create" onClick={() => submitAction()}>Submit</button>
+                </form>
+                : null}
             {props.spanish ? <ol className="cardDeck" style={{ textAlign: "left" }}>{loaded()}</ol> : <ol>{loading()}</ol>}
             {showCreateButton ?
-            <button className="create" onClick={()=>createAction()}>Create New Card</button>
-            :null}     
+                <button className="create" onClick={() => createAction()}>Create New Card</button>
+                : null}
         </section>
     )
 }
