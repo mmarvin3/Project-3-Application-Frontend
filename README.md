@@ -1,7 +1,7 @@
 # Mater Lingua 1.0
 
 #### A flashcard creator for people to practice foreign language vocabulary. 
-<img src="https://i.imgur.com/x1Ldes9.png?1" alt="Home Page Welcome Screen"/>
+<img src="https://i.imgur.com/e4HO4cN.png" alt="Home Page Welcome Screen"/>
 
 ## Description
 Mater Lingua is an app for anyone wanting to learn a new language. Through the use of self created flashcards you can practice your foreign language vocabulary from anywhere. You no longer have to carry a deck of cards around with you. See your entire deck all at once without having to place each individual card.  
@@ -78,6 +78,4 @@ Our team was brought together by the auspicious hand of fate. We were tasked wit
 [Linkedin.com](https://www.linkedin.com/in/david-barbour/)
 [Github.com](https://github.com/BarbourD)
 
-## Works Cited:
-* N/A from your project.
 
