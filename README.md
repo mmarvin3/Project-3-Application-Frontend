@@ -72,7 +72,7 @@ Our team was brought together by the auspicious hand of fate. We were tasked wit
 
 ## David Barbour - Release Manager
 <img src="https://i.imgur.com/T9PDInob.png" alt="David Barbour"/>
-* Responsable for managing version control. Created React frameworks for front-end. 
+* Responsible for managing version control. Created React frameworks for front-end. 
 
 * You can contact me here:
 [Linkedin.com](https://www.linkedin.com/in/david-barbour/)
