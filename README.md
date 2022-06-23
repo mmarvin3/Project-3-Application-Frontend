@@ -1,4 +1,4 @@
-# Our Application 1.0
+# Mater Lingua 1.0
 ​
 #### A flashcard creator for people to practice foreign language vocabulary. 
 <img src="./images/homePage.png" alt="Home Page Welcome Screen"/>
@@ -20,7 +20,6 @@ Mater Lingua is an app for anyone wanting to learn a new language. Through the u
 * CSS3
 * React
 * Node.js
-* 
 ​
 ​
 ## Features
@@ -28,10 +27,6 @@ Mater Lingua is an app for anyone wanting to learn a new language. Through the u
 * Users can see a list of their previously made cards.
 * Users can create new cards or click on a card to study that individual word. 
 ​
-​
-## Whiteboard Images
-*Original Whiteboard sketch
-<img src="./images/whiteboard.jpg" alt="Original Sketch"/>
 ​
 ## Trello Planning
 [Trello]([(https://trello.com/b/nKZlIljC/mater-lingua])
@@ -55,41 +50,37 @@ Mater Lingua is an app for anyone wanting to learn a new language. Through the u
 # <a name="team"></a>About The Team
 Our team was brought together by the auspicious hand of fate. We were tasked with solving a problem and decided world communication seemed surmountable. With our task in hand we bravely moved forward to create an app that gives users a freedom to explore language while following time honored conventions. We have tackled this challange as a cohesive team of four mighty developers, and we hope you enjoy our efforts.
 ​
-## Member 1 - Role/Title
+## Candace Pinero - Project Manager
 <img src="./images/Member1.jpg" alt="Original Sketch"/>
-* Role Description, highlight the components you've built as well as the support you've provided for the team
+* Manage the team workflow and communications. Created flip function for show page cards. Helped create backend.
 ​
 * You can contact me here:
-[PortfolioSite.com](Port site link)
 [Linkedin.com](Linked in profile likn)
 [Github.com](Git link)
 ​
-## Member 2 - Role/Title
+## Essence Fuller - Back-end Lead
 <img src="./images/Member2.jpg" alt="Original Sketch"/>
-* Role Description
+* Manage all backend opperations. Created the backend. 
 ​
 * You can contact me here:
-[PortfolioSite.com](Port site link)
 [Linkedin.com](Linked in profile likn)
 [Github.com](Git link)
 ​
-## Member 4 - Role/Title
+## Marvin Merida - Front-end Lead
 <img src="./images/Member3.jpg" alt="Original Sketch"/>
-* Role Description
+* Manage all front end oppertaions. Created app asthetic and majority of CSS.
 ​
 * You can contact me here:
-[PortfolioSite.com](Port site link)
 [Linkedin.com](Linked in profile likn)
 [Github.com](Git link)
 ​
-## Member 4 - Role/Title
+## David Barbour - Release Manager
 <img src="./images/Member4.jpg" alt="Original Sketch"/>
-* Role Description
+* Responsable for managing version control. Created React frameworks for front-end. 
 ​
 * You can contact me here:
-[PortfolioSite.com](Port site link)
 [Linkedin.com](Linked in profile likn)
-[Github.com](Git link)
+[Github.com](https://github.com/BarbourD)
 ​
 ## Works Cited:
 * N/A from your project.
