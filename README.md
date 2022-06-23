@@ -1,11 +1,11 @@
 # Mater Lingua 1.0
-​
+
 #### A flashcard creator for people to practice foreign language vocabulary. 
-<img src="./images/homePage.png" alt="Home Page Welcome Screen"/>
-​
+<img src="https://i.imgur.com/x1Ldes9.png?1" alt="Home Page Welcome Screen"/>
+
 ## Description
 Mater Lingua is an app for anyone wanting to learn a new language. Through the use of self created flashcards you can practice your foreign language vocabulary from anywhere. You no longer have to carry a deck of cards around with you. See your entire deck all at once without having to place each individual card.  
-​
+
 ## Table of Contents
 * [Technologies Used](#technologiesused)
 * [Features](#features)
@@ -13,75 +13,74 @@ Mater Lingua is an app for anyone wanting to learn a new language. Through the u
 * [Project Next Steps](#nextsteps)
 * [Deployed App](#deployment)
 * [About the Team](#team)
-​
+
 ## <a name="technologiesused"></a>Technologies Used
 * JavaScript
 * HTML5
 * CSS3
 * React
 * Node.js
-​
-​
+
+
 ## Features
 * Users can choose a language to study.
 * Users can see a list of their previously made cards.
 * Users can create new cards or click on a card to study that individual word. 
-​
-​
+
+
 ## Trello Planning
-[Trello]([(https://trello.com/b/nKZlIljC/mater-lingua])
+[Mater Lingua Trello](https://trello.com/b/nKZlIljC/mater-lingua)
 * Trello was used as a digital means to keep the team organized and on task. 
-​
+
 ## <a name="design"></a>Design
 * Design elements implemented using React... 
-​
-​
+
+
 ## <a name="nextsteps"></a>Project Next Steps
 * Add user authentification
 * Create edit and delete functionality 
-​
+
 ## <a name="deployment"></a>Deployed Link
 [Netlify](deployed link )
-​
+
 * You can view the repository:
 [Github.com](Git link)
-​
-​
+
 # <a name="team"></a>About The Team
 Our team was brought together by the auspicious hand of fate. We were tasked with solving a problem and decided world communication seemed surmountable. With our task in hand we bravely moved forward to create an app that gives users a freedom to explore language while following time honored conventions. We have tackled this challange as a cohesive team of four mighty developers, and we hope you enjoy our efforts.
-​
+
 ## Candace Pinero - Project Manager
-<img src="./images/Member1.jpg" alt="Original Sketch"/>
+<img src="https://i.imgur.com/DZUoqrab.jpg" alt="Candace Pinero"/>
 * Manage the team workflow and communications. Created flip function for show page cards. Helped create backend.
-​
+
 * You can contact me here:
-[Linkedin.com](Linked in profile likn)
-[Github.com](Git link)
-​
+[Linkedin.com](https://www.linkedin.com/in/candace-pinero-84a6b922b/)
+[Github.com](https://github.com/candacepinero)
+
 ## Essence Fuller - Back-end Lead
-<img src="./images/Member2.jpg" alt="Original Sketch"/>
-* Manage all backend opperations. Created the backend. 
-​
+<img src="https://i.imgur.com/O9Gj1X0b.jpg" alt="Essence Fuller"/>
+* Manager of all backend opperations. Created the backend. 
+
 * You can contact me here:
-[Linkedin.com](Linked in profile likn)
-[Github.com](Git link)
-​
+[Linkedin.com](https://www.linkedin.com/in/essencefuller/)
+[Github.com](https://github.com/eufuller)
+
 ## Marvin Merida - Front-end Lead
-<img src="./images/Member3.jpg" alt="Original Sketch"/>
-* Manage all front end oppertaions. Created app asthetic and majority of CSS.
-​
+<img src="https://i.imgur.com/0gsV0B1b.jpg" alt="Original Sketch"/>
+* Manager of all front end oppertaions. Created app aesthetic and majority of CSS.
+
 * You can contact me here:
-[Linkedin.com](Linked in profile likn)
-[Github.com](Git link)
-​
+[Linkedin.com](https://www.linkedin.com/in/marvin-merida/)
+[Github.com](https://github.com/mmarvin3)
+
 ## David Barbour - Release Manager
-<img src="./images/Member4.jpg" alt="Original Sketch"/>
+<img src="https://i.imgur.com/T9PDInob.png" alt="David Barbour"/>
 * Responsable for managing version control. Created React frameworks for front-end. 
-​
+
 * You can contact me here:
-[Linkedin.com](Linked in profile likn)
+[Linkedin.com](https://www.linkedin.com/in/david-barbour/)
 [Github.com](https://github.com/BarbourD)
-​
+
 ## Works Cited:
 * N/A from your project.
 
