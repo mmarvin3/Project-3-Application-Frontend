@@ -30,10 +30,7 @@ return (
 <div className="Essence">
     <h2> Essence Fuller</h2>
     <img className="aboutImg"src="https://i.imgur.com/k5kNtro.jpg?1" alt="Essence"></img> 
-    <p>Engineer by day, salsa-dancing adventurer, that also bakes, by night. As the pandemic has deintensified, I've slowly rejoined society
-        and am taking every opportunity to travel, dance, cook, and code with developers, such as my fantastic team here. 
-        I'm a service-oriented career changer who's moved from working with San Francisco's homeless veterans,
-         to creating applications such as Lingua Mater, to serve the diverse needs of local and global communities alike.
+    <p>
         
     </p> 
     <a href="https://www.linkedin.com/in/essencefuller/" target="_blank" rel="noreferrer">
