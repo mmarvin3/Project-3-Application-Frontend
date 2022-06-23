@@ -92,7 +92,7 @@ const Spanish = (props) => {
                             onChange={handleChange}
                             name="image"
                             type="text"
-                            placeholder="ex. your image link"
+                            placeholder="ex. Your Image Link"
                         />
                     </label>
 
