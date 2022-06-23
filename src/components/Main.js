@@ -59,6 +59,7 @@ const [ spanish, setSpanish ] =useState(null)
             body: JSON.stringify(card)
         })
         getSpanish();
+        console.log(card)
     }
     useEffect(() => {getSpanish()}, []);
    // END SPANISH
