@@ -7,6 +7,7 @@
 /* INDEX */
 body {
     background-color: #ffeab6;
+    padding-bottom: 150px;
 }
 
 h3 {
@@ -16,7 +17,7 @@ h3 {
     justify-content: center;
 }
 
-img{
+img {
     height: 200px;
     width: 200px;
 }
@@ -34,7 +35,6 @@ img{
 
 nav,
 .footer {
-    margin: 0 auto;
     padding: 1em 3em;
     box-sizing: border-box;
     background: #4056A1;
@@ -46,7 +46,7 @@ nav,
     color: white;
 }
 
-.home-header {
+.page-header {
     background: #fff;
     padding: 14px 0;
     border-bottom: solid 1px #e6e6e6;
@@ -84,11 +84,11 @@ nav,
     transition: all 0.2s ease;
     animation: down-bump 0.4s ease;
 
-    
+
 
 }
 
-.showCard{
+.showCard {
     width: 800px;
     height: 400px;
     background-image: url(https://1001freedownloads.s3.amazonaws.com/vector/thumb/109019/index_card.png);
@@ -96,7 +96,6 @@ nav,
     display: flex;
     align-items: center;
     justify-content: center;
-
     flex-direction: row;
     margin: 100px auto 0 auto;
     
@@ -108,7 +107,8 @@ nav,
     transform: perspective(1000px) rotateY(var(--rotate-y, 0));
 }
 
-.card:hover, .showCard:hover {
+.card:hover,
+.showCard:hover {
     --translate-y: -2px;
     box-shadow: 0 0 5px 2px rgba(0, 0, 0.5);
     opacity: 1;
@@ -182,15 +182,16 @@ nav,
     color: white;
 }
 
-.cardDeck{
+.cardDeck {
     list-style: none;
     display: flex;
     flex-direction: row;
-
     flex-wrap: wrap;
+    justify-content: center;
     padding: 5px;
-   
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
 }
 
 .card {
@@ -198,8 +199,6 @@ nav,
     height: 100px;
     background-image: url(https://1001freedownloads.s3.amazonaws.com/vector/thumb/109019/index_card.png);
     background-size: cover;
-
-    margin: 5px;
 
 }
 
@@ -216,9 +215,14 @@ h1 {
     font-size:larger;
     background-color: #ffe9a8;
     padding: 10px 18px;
+    border: 0px;
     border-radius: 4px;
     text-shadow: 0px 1px 3px rgb(0 0 0 / 20%);
+    box-shadow: 1px 1px 2px #ddd;
+    cursor: pointer;
+    margin-left: 50px;
 }
+
 
 /* INPUT BOX STYLING */
 input
@@ -257,6 +261,7 @@ a {
               -1px 1px 10px #ddd;
 }
 
+
 /* FORM IMAGE STYLING */
 .sidebar{
     width: 100%;
@@ -283,7 +288,7 @@ a {
     /* overflow: auto; */
 }
 
-/* STYLING FOR AREA OUTLI LEGEND OUTLINE */
+/* STYLING FOR AREA LEGEND OUTLINE */
 fieldset{
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -329,7 +334,8 @@ button:hover {
     border: 4px solid #4056A1;
 }
 
-/* Footer */
+/* =======================Footer ========================== */
+
 .footer {
     position: fixed;
     bottom: 0;
@@ -352,3 +358,60 @@ button:hover {
     text-transform: uppercase;
     
 } */
+
+}
+
+
+
+/* ==========================about======================= */
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.aboutImg {
+    height: 400px;
+    width: 400px;
+    box-shadow: 2px 2px 2px #333232;
+}
+
+.team {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.about-text {
+    width: 400px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+
+ion-icon {
+    color: rgb(0, 0, 8);
+
+}
+
+ion-icon:hover {
+    cursor: pointer;
+}
+
+.loginImg {
+    height: 50%;
+    width: 50%;
+}
+
+.loginDiv {
+    margin: 5px;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+

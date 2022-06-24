@@ -6,6 +6,7 @@ import Spanish from "../pages/Spanish";
 import Italian from "../pages/Italian";
 import Show from "../pages/Show";
 import About from "../pages/About";
+import Login from "../pages/Login";
 
 const Main = (props) => {
     
@@ -94,6 +95,10 @@ const [ spanish, setSpanish ] =useState(null)
             <Route path='/about'>
                 <About />
             </Route>
+            <Route path='/login'>
+                <Login />
+            </Route>
+
             <Route  path='/french'>
                 <French french={french} createCards={createFrench}/>
             </Route>

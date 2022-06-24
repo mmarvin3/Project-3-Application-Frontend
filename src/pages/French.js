@@ -22,15 +22,15 @@ const French = (props) => {
 
     const loaded = () => {
         return props.french.map(card => (
-            showCards?
-            <li key={card._id} className="card">
-                <Link to={`/show/${card._id}`}>
-                    <h1>{card.mater}</h1>
-                </Link>
-            </li>
-             :null
-             
-        )); 
+            showCards ?
+                <li key={card._id} className="card">
+                    <Link to={`/show/${card._id}`}>
+                        <h1>{card.mater}</h1>
+                    </Link>
+                </li>
+                : null
+
+        ));
     }
 
     const loading = () => {
@@ -40,14 +40,14 @@ const French = (props) => {
     const [showCards, setShowCards] = useState(true)
     const [showForm, setShowForm] = useState(false)
     const [showCreateButton, setShowCreateButton] = useState(true)
-   
-    function submitAction(){
+
+    function submitAction() {
         setShowCards(true);
         setShowForm(false);
         setShowCreateButton(true);
     }
-   
-    function createAction(){
+
+    function createAction() {
         setShowCards(false);
         setShowForm(true);
         setShowCreateButton(false);
@@ -55,6 +55,7 @@ const French = (props) => {
 
     return (
         <section >
+        <h1 className='page-header'>French Deck</h1>
             {showForm ?
             <div className="container">
                 <div className="sidebar"></div>
@@ -64,7 +65,8 @@ const French = (props) => {
                     <fieldset className="formFields">
                         <legend>Create New Flashcard</legend>
                     <label>
-                        <h2>Mater</h2>
+                        <h2>French Word</h2>
+
                         <input
                             value={newForm.mater}
                             onChange={handleChange}
@@ -76,6 +78,7 @@ const French = (props) => {
 
                     <label>
                         <h2>Translation</h2>
+
                         <input
                             value={newForm.translation}
                             onChange={handleChange}
@@ -102,11 +105,10 @@ const French = (props) => {
                     </form>
                         </div>
                     </div>
-            :null}
             {props.french ? <ol className="cardDeck" style={{ textAlign: "left" }}>{loaded()}</ol> : <ol>{loading()}</ol>}
             {showCreateButton ?
-            <button className="create" onClick={()=>createAction()}>Create New Card</button>
-            :null}  
+                <button className="create" onClick={() => createAction()}>Create New Card</button>
+                : null}
         </section>
     )
 }

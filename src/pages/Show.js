@@ -1,5 +1,6 @@
-import { useState } from "react";
 
+
+import { useState } from "react";
 const Show = (props) => {
 
     const idf = props.match.params.id;
@@ -10,6 +11,7 @@ const Show = (props) => {
 
     const idi = props.match.params.id;
     const italian = props.italian.find(p => p._id === idi)
+
 
     // useState for onClick
     const [flip, setFlip] = useState(false)
@@ -27,11 +29,13 @@ const Show = (props) => {
                         <h3> {french.translation}</h3>
                         <img src={french.image} alt={french.translation} />
                     </div>
+
                 </div>
             </div>)
     } else if (spanish !== french && spanish !== italian) {
         return (
             <div>
+
                 <div className={`showCard ${flip ? "flip" : ""}`}>
 
                     <div className="front" onClick={() => setFlip(!flip)}>
@@ -42,11 +46,13 @@ const Show = (props) => {
                         <img src={spanish.image} alt={spanish.translation}/>
                     </div>
                 </div>
-                /</div>
+            </div>
+
         )
     } else {
         return (
             <div>
+
                 <div className={`showCard ${flip ? "flip" : ""}`}>
 
                     <div className="front" onClick={() => setFlip(!flip)}>
@@ -57,6 +63,7 @@ const Show = (props) => {
                         <img src={italian.image} alt={italian.translation} />
                     </div>
                 </div>
+
             </div>
         )
     }

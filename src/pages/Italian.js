@@ -22,15 +22,15 @@ const Italian = (props) => {
 
     const loaded = () => {
         return props.italian.map(card => (
-            showCards?
-            <li key={card._id} className="card">
-                <Link to={`/show/${card._id}`}>
-                    <h1>{card.mater}</h1>
-                </Link>
-            </li>
-             :null
-             
-        )); 
+            showCards ?
+                <li key={card._id} className="card">
+                    <Link to={`/show/${card._id}`}>
+                        <h1>{card.mater}</h1>
+                    </Link>
+                </li>
+                : null
+
+        ));
     }
 
     const loading = () => {
@@ -40,21 +40,23 @@ const Italian = (props) => {
     const [showCards, setShowCards] = useState(true)
     const [showForm, setShowForm] = useState(false)
     const [showCreateButton, setShowCreateButton] = useState(true)
-   
-    function submitAction(){
+
+    function submitAction() {
         setShowCards(true);
         setShowForm(false);
         setShowCreateButton(true);
     }
-   
-    function createAction(){
+
+    function createAction() {
         setShowCards(false);
         setShowForm(true);
         setShowCreateButton(false);
     }
 
     return (
+
         <section >
+        <h1 className='page-header'>Italian Deck</h1>
             {showForm ?
             <div className="container">
                 <div className="sidebar"></div>
@@ -64,7 +66,7 @@ const Italian = (props) => {
                     <fieldset className="formFields">
                         <legend>Create New Flashcard</legend>
                     <label>
-                        <h2>Mater</h2>
+                        <h2>Italian Word</h2>
                         <input
                             value={newForm.mater}
                             onChange={handleChange}

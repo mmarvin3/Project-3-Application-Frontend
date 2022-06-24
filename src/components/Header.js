@@ -10,11 +10,13 @@ const Header = (props) => {
             <Link to="/">
                 <img className='logoImage' src='https://i.imgur.com/gi9CrLR.png?1' alt='mater lingua home logo'/>
             </Link>
+            
             <div className='nav-block'>
             <Link to="/about">
                 <div className="about">About</div>
             </Link>
-            <Link to="/create">
+            
+            <Link to="/login">
                 <div className="login">Login</div>
             </Link>
            
