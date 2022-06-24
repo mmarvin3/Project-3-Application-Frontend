@@ -75,7 +75,7 @@ Our team was brought together by the auspicious hand of fate. We were tasked wit
 ## Marvin Merida - Front-end Lead
 <img src="https://i.imgur.com/0gsV0B1b.jpg" alt="Original Sketch"/>
 * Manager of all front end oppertaions. </br>
-* Created app design and visual flow.</br>
+* Created logo, app design, and visual flow.</br>
 * Deployed fronted via Netlify</br>
 
 * You can contact me here:
