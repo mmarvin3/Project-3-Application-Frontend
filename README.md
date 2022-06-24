@@ -55,8 +55,8 @@ Our team was brought together by the auspicious hand of fate. We were tasked wit
 ## Candace Pinero - Project Manager
 <img src="https://i.imgur.com/DZUoqrab.jpg" alt="Candace Pinero"/>
 * Manage the team workflow and communications. </br>
-*Held daily standups and set up organizational tools for team ex. Trello.</br>
-*Created flip function for show page cards. Helped create backend. </br>
+* Held daily standups and set up organizational tools for team ex. Trello.</br>
+* Created flip function for show page cards. Helped create backend. </br>
 
 * You can contact me here:
 [Linkedin.com](https://www.linkedin.com/in/candace-pinero-84a6b922b/)
@@ -65,8 +65,8 @@ Our team was brought together by the auspicious hand of fate. We were tasked wit
 ## Essence Fuller - Back-end Lead
 <img src="https://i.imgur.com/O9Gj1X0b.jpg" alt="Essence Fuller"/>
 * Manager of all backend opperations. Created MVC model.</br>
-*Created the backend routing using Express, Mongoose/MongoDB, and Node.js.</br> 
-*Implemented the toggle feature for our form/index page. Deployed back-end via Herokua.</br>
+* Created the backend routing using Express, Mongoose/MongoDB, and Node.js.</br> 
+* Implemented the toggle feature for our form/index page. Deployed back-end via Herokua.</br>
 
 * You can contact me here:
 [Linkedin.com](https://www.linkedin.com/in/essencefuller/)
@@ -75,8 +75,8 @@ Our team was brought together by the auspicious hand of fate. We were tasked wit
 ## Marvin Merida - Front-end Lead
 <img src="https://i.imgur.com/0gsV0B1b.jpg" alt="Original Sketch"/>
 * Manager of all front end oppertaions. </br>
-*Created app design and visual flow.</br>
-*Deployed fronted via Netlify</br>
+* Created app design and visual flow.</br>
+* Deployed fronted via Netlify</br>
 
 * You can contact me here:
 [Linkedin.com](https://www.linkedin.com/in/marvin-merida/)
@@ -85,8 +85,8 @@ Our team was brought together by the auspicious hand of fate. We were tasked wit
 ## David Barbour - Release Manager
 <img src="https://i.imgur.com/T9PDInob.png" alt="David Barbour"/>
 * Responsible for managing version control. </br>
-*Created wireframe for site design and flow.</br>
-*Wrote all components and routes for the front-end using React. </br>
+* Created wireframe for site design and flow.</br>
+* Wrote all components and routes for the front-end using React. </br>
 
 * You can contact me here:
 [Linkedin.com](https://www.linkedin.com/in/david-barbour/)
