@@ -20,6 +20,9 @@ Mater Lingua is an app for anyone wanting to learn a new language. Through the u
 * CSS3
 * React
 * Node.js
+* MongoDB
+* Mongoose
+* Express
 
 
 ## Features
