@@ -105,6 +105,7 @@ const French = (props) => {
                     </form>
                         </div>
                     </div>
+                :null}
             {props.french ? <ol className="cardDeck" style={{ textAlign: "left" }}>{loaded()}</ol> : <ol>{loading()}</ol>}
             {showCreateButton ?
                 <button className="create" onClick={() => createAction()}>Create New Card</button>
