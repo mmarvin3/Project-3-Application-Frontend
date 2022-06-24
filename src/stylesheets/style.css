@@ -348,25 +348,10 @@ button:hover {
     border-top-right-radius: 1em;
 }
 
-/* Header - might use this later */
-/* header nav {
-    margin: 0;
-    display: flex;
-    align-items: center;
-    font-family: 'Montserrat', helvetica;
-    font-weight: 700;
-    font-size: 0.8em;
-    margin-left: 1em;
-    text-transform: uppercase;
-    
-} */
-
-
-
 
 /* ==========================about======================= */
 
-.aboutContainer {
+.about-container {
     display: flex;
     justify-content: center;
 

@@ -4,7 +4,7 @@ const About = () => {
         <span>
             <h1 className="page-header"> About the Developers</h1>
 
-            <div className="aboutContainer">
+            <div className="about-container">
                 <div className="team">
                     <div>
                         <h2> Candace Pinero</h2>
