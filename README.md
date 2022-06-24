@@ -36,8 +36,9 @@ Mater Lingua is an app for anyone wanting to learn a new language. Through the u
 * Trello was used as a digital means to keep the team organized and on task. 
 
 ## <a name="nextsteps"></a>Project Next Steps
-* Add user authentification
-* Create edit and delete functionality 
+* Add user authentification for user-only created decks to be created and stored.
+* Create edit and delete functionality for logged in users
+* 
 
 ## <a name="deployment"></a>Deployed Link
 
