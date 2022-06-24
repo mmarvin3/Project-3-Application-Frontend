@@ -6,7 +6,7 @@
 
 /* INDEX */
 body {
-    background-color: #fff8e7;
+    background-color: #FFF8E7;
     padding-bottom: 150px;
 }
 
@@ -52,16 +52,14 @@ nav,
     border-bottom: solid 1px #e6e6e6;
     margin-top: 0px;
     overflow: inherit;
-    font-size: 30px;
 }
 
 .homeCards {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 5%
+    margin-left: 48px;
+    margin-right: 48px;
 }
 
 .card,
@@ -86,9 +84,8 @@ nav,
     transition: all 0.2s ease;
     animation: down-bump 0.4s ease;
 
-}
-.card{
-    box-shadow: 1px 1px 5px var(--bright-orange);
+
+
 }
 
 .showCard {
@@ -183,7 +180,6 @@ nav,
 .about {
     margin-right: 20px;
     color: white;
-    font-size: large;
 }
 
 .cardDeck {
@@ -192,15 +188,15 @@ nav,
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 100px;
+    padding: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 35%;
+    grid-gap: 20px;
 }
 
 .card {
-    width: 250px;
-    height: 125px;
+    width: 200px;
+    height: 100px;
     background-image: url(https://1001freedownloads.s3.amazonaws.com/vector/thumb/109019/index_card.png);
     background-size: cover;
 
@@ -217,7 +213,7 @@ h1 {
 .login, .create{
     font-family: "Oswald";
     font-size:larger;
-    background-color: #ffaa8a;
+    background-color: #ffe9a8;
     padding: 10px 18px;
     border: 0px;
     border-radius: 4px;
@@ -225,8 +221,8 @@ h1 {
     box-shadow: 1px 1px 2px #ddd;
     cursor: pointer;
     margin-left: 50px;
-    border: 1px solid #4056A1;
     border-radius: 4px;
+    border: 1px solid black;
 }
 
 
@@ -300,13 +296,12 @@ fieldset{
     border-radius: 5px;
     padding: 40px;
     margin: 40px;
-    padding-bottom: 20%;
+    padding-bottom: 30%;
 }
 
 /* OUTER TEXT AND FORM OUTLINE */
 legend{
     font-family: "Oswald";
-    font-size: large;
     font-weight: 550;
     color: #4056A1;
     border-bottom: 2px #4056A1;
@@ -324,10 +319,10 @@ label{
 /* SUBMIT BUTTON STYLING */
 .submit{
     font-family: "Oswald";
-    font-size: 20px;
+    font-size:larger;
     width: 100%;
     height: 60px;
-    background-color: #ffaa8a;
+    background-color: #ffe9a8;
     margin-top:70px;
     padding: 10px 18px;
     border-radius: 4px;
@@ -353,27 +348,12 @@ button:hover {
     border-top-right-radius: 1em;
 }
 
-/* Header - might use this later */
-/* header nav {
-    margin: 0;
-    display: flex;
-    align-items: center;
-    font-family: 'Montserrat', helvetica;
-    font-weight: 700;
-    font-size: 0.8em;
-    margin-left: 1em;
-    text-transform: uppercase;
-    
-} */
-
-
 
 /* ==========================about======================= */
 
-.aboutContainer {
+.about-container {
     display: flex;
     justify-content: center;
-    
 
 }
 
@@ -381,35 +361,27 @@ button:hover {
     height: 400px;
     width: 400px;
     box-shadow: 2px 2px 2px #333232;
-    
 }
 
 .team {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border: 2px solid #6686d0;
+
 }
 
 .about-text {
     width: 400px;
     padding: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    word-spacing: 1.2px;
-    line-height: 25px;
-    height: 260px;
-    border-radius: 0.5em;
-    background-color: #c2e0ffa3;
-    
+
 }
 
-.developer{
-    background-color:  rgba(255, 255, 255, 0.837);
-    padding:20px;
-}
+
 
 ion-icon {
-    color: var(--bright-orange);
+    color: rgb(0, 0, 8);
+
 }
 
 ion-icon:hover {
