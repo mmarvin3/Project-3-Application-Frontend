@@ -6,7 +6,7 @@
 
 /* INDEX */
 body {
-    background-color: #ffeab6;
+    background-color: #FFF8E7;
     padding-bottom: 150px;
 }
 
@@ -221,6 +221,8 @@ h1 {
     box-shadow: 1px 1px 2px #ddd;
     cursor: pointer;
     margin-left: 50px;
+    border-radius: 4px;
+    border: 1px solid black;
 }
 
 
@@ -362,7 +364,6 @@ button:hover {
 
 
 
-
 /* ==========================about======================= */
 
 .aboutContainer {
@@ -413,5 +414,4 @@ ion-icon:hover {
     flex-flow: column wrap;
     align-content: center;
 }
-
 
