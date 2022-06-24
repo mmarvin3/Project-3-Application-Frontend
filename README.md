@@ -65,7 +65,7 @@ Our team was brought together by the auspicious hand of fate. We were tasked wit
 [Linkedin.com](https://www.linkedin.com/in/candace-pinero-84a6b922b/)
 [Github.com](https://github.com/candacepinero)
 
-## Essence Fuller - Back-end Lead
+## Essence Fuller - Backend Lead
 <img src="https://i.imgur.com/O9Gj1X0b.jpg" alt="Essence Fuller"/>
 * Manager of all backend opperations. Created MVC model.</br>
 * Created the backend routing using Express, Mongoose/MongoDB, and Node.js.</br> 
@@ -75,7 +75,7 @@ Our team was brought together by the auspicious hand of fate. We were tasked wit
 [Linkedin.com](https://www.linkedin.com/in/essencefuller/)
 [Github.com](https://github.com/eufuller)
 
-## Marvin Merida - Front-end Lead
+## Marvin Merida - Frontend Lead
 <img src="https://i.imgur.com/0gsV0B1b.jpg" alt="Original Sketch"/>
 * Manager of all front end oppertaions. </br>
 * Created logo, app design, and visual flow.</br>
@@ -89,7 +89,7 @@ Our team was brought together by the auspicious hand of fate. We were tasked wit
 <img src="https://i.imgur.com/T9PDInob.png" alt="David Barbour"/>
 * Responsible for managing version control. </br>
 * Created wireframe for site design and flow.</br>
-* Wrote all components and routes for the front-end using React. </br>
+* Wrote all components and routes for the frontend using React. </br>
 
 * You can contact me here:
 [Linkedin.com](https://www.linkedin.com/in/david-barbour/)
