@@ -1,6 +1,7 @@
 # Mater Lingua 1.0
 
 #### A flashcard creator for people to practice foreign language vocabulary. 
+
 <img src="https://i.imgur.com/e4HO4cN.png" alt="Home Page Welcome Screen"/>
 
 ## Description
@@ -36,7 +37,9 @@ Mater Lingua is an app for anyone wanting to learn a new language. Through the u
 * Create edit and delete functionality 
 
 ## <a name="deployment"></a>Deployed Link
+
 [Mater Lingua](https://materlingua.netlify.app/)
+
 
 #### You can view the repositories:
 * [Github.com front-end](https://github.com/mmarvin3/Project-3-Application-Frontend/)
@@ -72,10 +75,13 @@ Our team was brought together by the auspicious hand of fate. We were tasked wit
 
 ## David Barbour - Release Manager
 <img src="https://i.imgur.com/T9PDInob.png" alt="David Barbour"/>
+
 * Responsible for managing version control. Created React frameworks for front-end. 
+
 
 * You can contact me here:
 [Linkedin.com](https://www.linkedin.com/in/david-barbour/)
 [Github.com](https://github.com/BarbourD)
+
 
 

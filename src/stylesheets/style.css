@@ -1,6 +1,12 @@
+/*COLOR VARIABLES*/
+:root {
+    --bright-orange: #F18963;
+    --purple: #B67D9A;
+  }
+
 /* INDEX */
 body {
-    background-color: #EFE2BA;
+    background-color: #ffeab6;
     padding-bottom: 150px;
 }
 
@@ -29,7 +35,6 @@ img {
 
 nav,
 .footer {
-
     padding: 1em 3em;
     box-sizing: border-box;
     background: #4056A1;
@@ -71,6 +76,8 @@ nav,
     border-bottom: solid 1px #e6e6e6;
     border: 1px solid #e4e4e4;
     box-shadow: 1px 1px 5px #888;
+    font-family: "Oswald";
+    font-weight: 700;
     color: black;
     background: linear-gradient(white, white 50%, #333 50%, #333);
     background-size: 100% 202%;
@@ -197,10 +204,16 @@ nav,
 
 h1 {
     text-align: center;
+    font-family: "Oswald";
+    color: #4056A1;
+
 }
 
-.create {
-    background-color: #FFC000;
+/* LOGIN AND CREATE NEW CARD BUTTON STYLING*/
+.login, .create{
+    font-family: "Oswald";
+    font-size:larger;
+    background-color: #ffe9a8;
     padding: 10px 18px;
     border: 0px;
     border-radius: 4px;
@@ -210,41 +223,22 @@ h1 {
     margin-left: 50px;
 }
 
-.createForm {
-    background: #f9f9f9;
-    padding: 14px 0;
-    border-bottom: solid 1px #e6e6e6;
-    margin: 0 auto;
-    overflow: inherit;
-    justify-content: space-around;
-    text-align: center;
-    width: 80%;
-    border-radius: 4px;
-}
 
-.form-label {
-    display: block;
-    float: left;
-    width: 20%;
-    text-align: right;
-    padding-right: 20px;
-}
-
-.field-inline {
-    display: flex;
-    margin-bottom: 9px;
-}
-
-input[type="text"],
-input[type="submit"] {
+/* INPUT BOX STYLING */
+input
+ {
+    width: 100%;
     padding: 1em;
+    box-sizing: border-box;
     border: 0px;
     border-radius: 0.5em;
     box-shadow: 1px 1px 2px #ddd;
-    width: 80%;
-    float: right;
-    margin-right: 30px
-;
+}
+
+/* MAKES INPUT FIELDS CHANGE OUTLINE COLOR WHEN CLICKED */
+input:focus{
+    outline: 0;
+    border: 1px solid #4056A1;
 }
 
 a {
@@ -252,8 +246,96 @@ a {
 
 }
 
+/*  CONTAINER HOLDING ALL FORM ELEMENTS*/
+.container{
+    width: 70vw;
+  height: 70vw;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: peachpuff;
+  box-shadow: 1px 1px 10px #ddd,
+              -1px -1px 10px #ddd,
+              1px -1px 10px #ddd,
+              -1px 1px 10px #ddd;
+}
+
+
+/* FORM IMAGE STYLING */
+.sidebar{
+    width: 100%;
+    height: 34%;
+    background: url("https://i.imgur.com/ANzbRn1.jpg?1");
+    /* object-fit:fill; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px 0 0 10px;
+    /* object-fit: contain; */
+    
+
+}
+
+/* FORM STYLING */
+.createForm{
+    width: 100%;
+    height: 66%;
+    background: #f9f9f9;
+    border-radius: 0 10px 10px 0;
+    padding: 15px;
+    /* padding-top: 30px; */
+    box-sizing: border-box;
+    /* overflow: auto; */
+}
+
+/* STYLING FOR AREA LEGEND OUTLINE */
+fieldset{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 40px;
+    padding-bottom: 30%;
+}
+
+/* OUTER TEXT AND FORM OUTLINE */
+legend{
+    font-family: "Oswald";
+    font-weight: 550;
+    color: #4056A1;
+    border-bottom: 2px #4056A1;
+    height: 100%;
+}
+
+/* INPUT LABEL STYLING */
+label{
+    font-family: "oswald";
+    font-weight: 200;
+    color: var(--bright-orange);
+    padding: 50px;
+}
+
+/* SUBMIT BUTTON STYLING */
+.submit{
+    font-family: "Oswald";
+    font-size:larger;
+    width: 100%;
+    height: 60px;
+    background-color: #ffe9a8;
+    margin-top:70px;
+    padding: 10px 18px;
+    border-radius: 4px;
+    border: 1px solid black;
+
+}
+
+/* OUTLINE EFFECT ON ANY BUTTON HOVER */
+button:hover {
+    outline: 0;
+    border: 4px solid #4056A1;
+}
 
 /* =======================Footer ========================== */
+
 .footer {
     position: fixed;
     bottom: 0;
@@ -262,6 +344,20 @@ a {
     /* Height of the footer */
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
+}
+
+/* Header - might use this later */
+/* header nav {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', helvetica;
+    font-weight: 700;
+    font-size: 0.8em;
+    margin-left: 1em;
+    text-transform: uppercase;
+    
+} */
 
 }
 
@@ -317,4 +413,5 @@ ion-icon:hover {
     flex-flow: column wrap;
     align-content: center;
 }
+
 

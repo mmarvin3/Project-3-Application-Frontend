@@ -54,48 +54,60 @@ const Spanish = (props) => {
     }
 
     return (
-        <section>
-            <h1 className='page-header'>Spanish Deck</h1>
+        <section >
+        <h1 className='page-header'>Spanish Deck</h1>
             {showForm ?
-                <form className="createForm" onClick={handleSubmit}>
-                    <div className='field-inline'>
-                        <h2 className='form-label'>Spanish Word</h2>
+            <div className="container">
+                <div className="sidebar"></div>
+                <div className="createForm">
+                <form onClick={handleSubmit}>
+                
+                    <fieldset className="formFields">
+                        <legend>Create New Flashcard</legend>
+                    <label>
+                        <h2>Spanish Word</h2>
                         <input
                             value={newForm.mater}
                             onChange={handleChange}
                             name="mater"
                             type="text"
-                            placeholder='(ex. Hola, Perro, Gato...)'
+                            placeholder='ex. Manzana'
                         />
-                    </div>
-                    <div className='field-inline'>
-                        <h2 className='form-label'>Translation</h2>
+                    </label>
+
+                    <label>
+                        <h2>Translation</h2>
                         <input
                             value={newForm.translation}
                             onChange={handleChange}
                             name="translation"
                             type="text"
-                            placeholder='(ex. Hello, Dog, Cat...)'
+                            placeholder="ex. Apple"
                         />
-                    </div>
-                    <div className='field-inline'>
-                        <h2 className='form-label'>Picture</h2>
+                    </label>
+
+                    <label>
+                        <h2>Picture</h2>
                         <input
                             value={newForm.image}
                             onChange={handleChange}
                             name="image"
                             type="text"
-                            placeholder='Add an image URL'
+                            placeholder="ex. Your Image Link"
                         />
-                    </div>
+                    </label>
+
                     <button
-                        className="create" onClick={() => submitAction()}>Submit</button>
-                </form>
-                : null}
+                        className="submit" onClick={() => submitAction()}>Submit</button>
+                 </fieldset>
+                    </form>
+                        </div>
+                    </div>
+            :null}
             {props.spanish ? <ol className="cardDeck" style={{ textAlign: "left" }}>{loaded()}</ol> : <ol>{loading()}</ol>}
             {showCreateButton ?
-                <button className="create" onClick={() => createAction()}>Create New Card</button>
-                : null}
+            <button className="create" onClick={()=>createAction()}>Create New Card</button>
+            :null}  
         </section>
     )
 }

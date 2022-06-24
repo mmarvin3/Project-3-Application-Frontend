@@ -1,6 +1,5 @@
 
 const About = () => {
-
     return (
         <span>
             <h1 className="page-header"> About the Developers</h1>
@@ -34,7 +33,7 @@ const About = () => {
 
                     <div>
                         <h2> Essence Fuller</h2>
-                        <img className="aboutImg" src="https://i.imgur.com/k5kNtro.jpg?1" alt="Essence"></img>
+                        <img className="aboutImg"src="https://i.imgur.com/k5kNtro.jpg?1" alt="Essence"></img>
                         <p className="about-text">Engineer by day, salsa-dancing adventurer, that also bakes, by night. As the severity of the pandemic has decreased, I've
                             slowly rejoined society
                             and am taking every opportunity to travel, dance, cook, and code with developers, such as my fantastic team here.
