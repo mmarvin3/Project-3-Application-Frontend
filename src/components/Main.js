@@ -28,16 +28,7 @@ const Main = (props) => {
         })
         getFrench();
     }
-    // const updateFrench = async (updatedCard, id) => {
-    //     await fetch(URL + id, {
-    //       method: 'PUT',
-    //       headers: {
-    //         'Content-type': 'Application/json'
-    //       },
-    //       body: JSON.stringify(updatedCard)  
-    //     });
-    //     getCards();
-    // }
+   
     useEffect(() => {getFrench()}, []);
 // END FRENCH
 
@@ -115,7 +106,6 @@ const [ spanish, setSpanish ] =useState(null)
                 french={french}
                 spanish={spanish}
                 italian={italian}
-                // updateFrench={updateFrench}
                 />
             )} />
          </div>
